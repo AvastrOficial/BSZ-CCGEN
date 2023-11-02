@@ -1,0 +1,525 @@
+body {
+  margin: 0;
+  background: #000000;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+::-moz-selection {
+  color: #00FF00;
+  background: #000000;
+}
+::selection {
+  color: #00FF00;
+  background: #000000;
+}
+header {
+  color: #00FF00;
+}
+.title {
+  text-align: center;
+  font-family: 'Libre Baskerville', serif;
+  text-shadow: 0px 0px 30px #00FF00;
+  font-size: 2rem;
+  padding: 15px;
+}
+.title img {
+  display: inline-block;
+  height: 2.5rem;
+  vertical-align: middle;
+}
+.hh-title {
+  text-align: center;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 10;
+}
+.hh-title>i {
+  text-shadow: 0px 0px 5px #00FF00;
+}
+form#console {
+  text-align: center;
+}
+.Ilabel,
+.input_text,
+.input_texts {
+  display: -webkit-inline-box;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 18px;
+}
+.Ilabel {
+  background-color: #00FF00;
+  padding: 0.3em;
+  border-radius: 5px 0 0 5px;
+  border-bottom: 2px solid #00FF00;
+  color: #000000;
+}
+.input_text {
+  padding: 0.3em;
+  border: 0;
+  border-bottom: 2px solid #00FF00;
+  border-right: 2px solid #00FF00;
+  border-radius: 0 5px 5px 0;
+  vertical-align: bottom;
+  outline: none;
+  font-size: 17px;
+}
+select.input_text {
+  margin-left: -5px;
+  font-size: 16px;
+  background: white;
+}
+a {
+  color: #4facfe;
+}
+a:hover {
+  color: #1363DF;
+}
+.p {
+  display: -webkit-inline-box;
+  margin-bottom: 12px;
+}
+.footersito {
+  margin-top: 0px;
+  margin-bottom: 8px;
+}
+.olap {
+  margin-top: 6px;
+  margin-bottom: 8px;
+}
+.s {
+  margin-left: -5px;
+  background: white;
+  padding: 5.5px;
+}
+.input_text>label {
+  cursor: pointer;
+}
+.clean {
+  background: #00FF00 url('https://raw.githubusercontent.com/bystrokr/assetscdn/main/close.png') 0 0 no-repeat;
+  border-radius: 50%;
+  cursor: pointer;
+  height: 24px;
+  width: 24px;
+  float: right;
+  margin: 0 -23px -15px 0;
+  position: relative;
+  transition: all 0.5s;
+  -webkit-transition: all .5s;
+  
+}
+.clean:hover {
+  background: #00FF00 url('https://raw.githubusercontent.com/bystrokr/assetscdn/main/close.png') 0 0 no-repeat;
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+  
+}
+.cleanit {
+  background: #00FF00 url('https://raw.githubusercontent.com/bystrokr/assetscdn/main/close.png') 0 0 no-repeat;
+  border-radius: 50%;
+  cursor: pointer;
+  height: 24px;
+  width: 24px;
+  float: right;
+  position: relative;
+  transition: all 0.5s;
+  -webkit-transition: all .5s;
+}
+.cleanit:hover {
+  background: #000000 url('https://raw.githubusercontent.com/bystrokr/assetscdn/main/close.png') 0 0 no-repeat;
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+  
+}
+.eighty {
+  width: 30%;
+}
+.Lbutton {
+  background: #00FF00;
+  background: -webkit-linear-gradient(to right, rgba(0, 255, 0, 1), rgba(0, 0, 0, 1));
+  background: linear-gradient(to right, rgba(0, 255, 0, 1), rgba(0, 0, 0, 1));
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+  border: 2px solid #4facfe;
+  display: inline-block;
+  cursor: pointer;
+  color: #000000;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 17px;
+  font-weight: bold;
+  padding: 8px 40px;
+  text-decoration: none;
+}
+.Lbutton:active {
+  position: relative;
+  top: 3px;
+}
+.textarea {
+  background-color: transparent;
+  border-bottom: 3px solid #00FF00;
+  border-top: 3px solid #00FF00;
+  border-left: 3px solid #00FF00;
+  border-right: 3px solid #00FF00;
+  border-radius: 7px;
+  width: 100%;
+  font-size: 17px;
+  margin-bottom: 10px;
+  outline: none;
+  font-family: sans-serif;
+  font-weight: 600;
+  text-align: center;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  padding: 5px;
+  border: 5px solid transparent;
+  animation: animateBorder 8s infinite;
+  color: #00FF00;
+}
+.textarea::-webkit-scrollbar {
+  width: 10px;
+}
+.textarea::-webkit-scrollbar-thumb {
+  background: #00FF00;
+}
+footer {
+  background: #000000;
+  border-top: 5px solid #00FF00;
+  text-align: center;
+  font-family: 'Libre Baskerville', serif;
+  color: #00FF00;
+  padding: 20px;
+  font-size: 15px;
+}
+@media (max-width: 376px) {
+  .form {
+    width: 99%;
+    margin: 5px 0 5px 0;
+  }
+  .eighty {
+    width: 80%;
+  }
+}
+@media (max-width: 595px) {
+  .form {
+    width: 99%;
+    margin: 5px 0 5px 0;
+  }
+  .eighty {
+    width: 80%;
+  }
+}
+
+
+.container {
+  width: 860px;
+  height: 165px;
+  background-color: transparent;
+  margin: auto;
+  position: relative;
+  top: 0px; /* Ajusta la posición vertical según tus preferencias */
+  left: 0px; /* Ajusta la posición horizontal según tus preferencias */
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 25px;
+  border: 5px solid transparent;
+  animation: animateBorder 8s infinite;
+}
+
+
+@keyframes animateBorder {
+  0% {
+    border-color: transparent;
+  }
+  5% {
+    border-color: #3B5323;
+  }
+  10% {
+    border-color: #556B2F;
+  }
+  15% {
+    border-color: #6B8E23;
+  }
+  20% {
+    border-color: #7CFC00;
+  }
+  25% {
+    border-color: #8FBC8F;
+  }
+  30% {
+    border-color: #9ACD32;
+  }
+  35% {
+    border-color: #ADFF2F;
+  }
+  40% {
+    border-color: #BDFCC9;
+  }
+  45% {
+    border-color: #CAE1FF;
+  }
+  50% {
+    border-color: #9ACD32;
+  }
+  55% {
+    border-color: #7CFC00;
+  }
+  60% {
+    border-color: #6B8E23;
+  }
+  65% {
+    border-color: #556B2F;
+  }
+  70% {
+    border-color: #3B5323;
+  }
+  75% {
+    border-color: #556B2F;
+  }
+  80% {
+    border-color: #7CFC00;
+  }
+  85% {
+    border-color: #ADFF2F;
+  }
+  90% {
+    border-color: #CAE1FF;
+  }
+  95% {
+    border-color: #8FBC8F;
+  }
+  100% {
+    border-color: transparent;
+  }
+}
+
+
+
+
+.input_text {
+  padding: 0.3em;
+  border: 0;
+  border-bottom: 2px solid #6200EA;
+  border-right: 2px solid #6200EA;
+  border-radius: 0 5px 5px 0;
+  vertical-align: bottom;
+  outline: none;
+  font-size: 17px;
+  margin-left: 5px;
+}
+
+.s {
+  background: white;
+  padding: 5.5px;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+select {
+  margin-left: 5px;
+  font-size: 16px;
+  background: white;
+}
+
+.cuadrado {
+  width: 1000px;
+  height: 10px;
+  background-color: black;
+  opacity: 0; /* Puedes ajustar este valor para cambiar la opacidad del cuadrado */
+}
+
+.boton-hacker {
+  background-color: #7FFF00; /* Verde fosfo */
+  color: black;
+  border: 2px solid #32CD32; /* Borde verde más oscuro */
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+   border: 3px solid transparent;
+  animation: animateBorder 8s infinite;
+}
+
+.boton-hacker:hover {
+  background-color: #ADFF2F; /* Verde fosfo más claro al pasar el mouse */
+}
+
+
+
+
+.ove {
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-color: black;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   z-index: 999;
+}
+
+.ove-content {
+   background-color: rgba(0, 0, 0, 0.9); /* Cambiar el fondo a un negro más oscuro */
+   /* Otros estilos para el contenido del overlay */
+}
+
+/* Estilos para la animación de cambio de color */
+.animacion {
+   font-family: verdana;
+   font-size: 50px;
+   display: inline-block;
+   overflow: hidden;
+}
+
+.letra {
+   display: inline-block;
+   animation: cambio-color 2s infinite linear;
+}
+
+@keyframes cambio-color {
+   0% { color: #00ff00; } /* Cambiar el color inicial a verde lima */
+   16.67% { color: #33ff00; } /* Cambiar el color intermedio a otro tono de verde */
+   33.33% { color: #66ff00; } /* Cambiar el color intermedio a otro tono de verde */
+   50% { color: #99ff00; } /* Cambiar el color intermedio a otro tono de verde */
+   66.67% { color: #ccff00; } /* Cambiar el color intermedio a otro tono de verde */
+   83.33% { color: #ffff00; } /* Cambiar el color intermedio a amarillo */
+   100% { color: #00ff00; } /* Volver al color verde lima al final */
+}
+
+/* Estilos para la barra de carga */
+.loading-bar {
+   width: 100%;
+   height: 20px;
+   background-color: #000; /* Cambiar el color de fondo de la barra de carga a negro */
+   position: relative;
+}
+
+.progress {
+   width: 0;
+   height: 100%;
+   background-color: #00ff00; /* Cambiar el color de la barra de progreso a verde lima */
+   position: absolute;
+   animation: fill-progress 3s infinite;
+}
+
+@keyframes fill-progress {
+   0% { width: 0; }
+   16.67% { width: 16.67%; background-color: #33ff00; } /* Cambiar el color intermedio a otro tono de verde */
+   33.33% { width: 33.33%; background-color: #66ff00; } /* Cambiar el color intermedio a otro tono de verde */
+   50% { width: 50%; background-color: #99ff00; } /* Cambiar el color intermedio a otro tono de verde */
+   66.67% { width: 66.67%; background-color: #ccff00; } /* Cambiar el color intermedio a otro tono de verde */
+   83.33% { width: 83.33%; background-color: #ffff00; } /* Cambiar el color intermedio a amarillo */
+   100% { width: 100%; background-color: #00ff00; } /* Volver al color verde lima al final */
+}
+
+.separador {
+  border-top: 2px solid green; /* Cambia el color según tus preferencias */
+  margin: 20px 0; /* Ajusta el margen según sea necesario */
+}
+
+
+ .container1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 300px;
+}
+
+.profile img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.dropbtn {
+    background-color: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-right: auto; /* Agregar esta línea */
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Contenido del menú desplegable */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #212121; /* Cambiar este color al que prefieras */
+    min-width: 160px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #39C117; /* Cambiar el color del texto */
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+/* Mostrar el menú desplegable al pasar el mouse */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+ 
+.dropbtn2 {
+  background-color: transparent;
+  color: #00ff00; /* Color de texto verde fosforescente */
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.dropdown-content2 {
+  display: none;
+  position: absolute;
+  background-color: #333;
+   color: #00ff00; /* Color de texto verde fosforescente */
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content2 a {
+  color: #00ff00;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content2 a:hover {
+  background-color: #00ff00; /* Color de fondo verde fosforescente al resaltar */
+  color: white; /* Color de texto blanco al resaltar */
+}
+
+.dropdown:hover .dropdown-content2 {
+  display: block;
+}
+
+.github-icon {
+  width: 40px; /* Tamaño del ícono */
+  height: 40px;
+  background-image: url('https://files.catbox.moe/sd5ay7.png'); /* Ruta a tu imagen de GitHub */
+  background-size: cover;
+  /* Otros estilos, si es necesario */
+}
