@@ -9,7 +9,7 @@ Sin embargo, es importante destacar que aunque los números generados pueden par
 
 Es fundamental utilizar estas herramientas de manera responsable y ética, evitando cualquier uso fraudulento que viole la ley.
 
-VERCION 0.0.1 :
+VERCION 0.0.1 : https://appbsz.crearforo.net/h72-bsz-ccgen	
 
 ![image](https://github.com/AvastrOficial/BSZ-CCGEN/assets/91764815/dabf7283-d3e0-4cee-b57d-7f35e76d7d9b)
 
