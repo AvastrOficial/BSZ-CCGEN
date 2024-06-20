@@ -1,4 +1,5 @@
 # BSZ-CCGEN
+
 QUE ES UN CCGEN ?
 CCGEN se refiere a "Generador de Tarjetas de Crédito". Es una abreviatura comúnmente utilizada en el ámbito de la informática y la seguridad cibernética. Los generadores de tarjetas de crédito son herramientas que pueden crear números de tarjetas de crédito falsos para diversos fines, como pruebas de software, pruebas de transacciones y educación en seguridad cibernética.
 
@@ -9,8 +10,11 @@ Sin embargo, es importante destacar que aunque los números generados pueden par
 
 Es fundamental utilizar estas herramientas de manera responsable y ética, evitando cualquier uso fraudulento que viole la ley.
 
-VERCION 0.0.1 : https://appbsz.crearforo.net/h72-bsz-ccgen	
-
+# video explicativo : 
+video tutorial : 
+<br></br>
+> VERSION 0.0.1 : https://appbsz.crearforo.net/h72-bsz-ccgen	
+# foto : 
 ![image](https://github.com/AvastrOficial/BSZ-CCGEN/assets/91764815/dabf7283-d3e0-4cee-b57d-7f35e76d7d9b)
 
 EL PROYECTO REAL FUE ECHO POR : https://github.com/yaelsito
