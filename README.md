@@ -11,7 +11,7 @@ Sin embargo, es importante destacar que aunque los números generados pueden par
 Es fundamental utilizar estas herramientas de manera responsable y ética, evitando cualquier uso fraudulento que viole la ley.
 
 # video explicativo : 
-video tutorial : 
+> video tutorial : https://gofile.io/d/QbczsH
 <br></br>
 > VERSION 0.0.1 : https://appbsz.crearforo.net/h72-bsz-ccgen	
 # foto : 
